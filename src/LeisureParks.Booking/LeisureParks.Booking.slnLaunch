@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Leisure Parks Booking",
+    "Projects": [
+      {
+        "Path": "LeisureParks.Booking.External\\LeisureParks.Booking.External.csproj",
+        "Action": "Start",
+        "DebugTarget": "LeisureParks.Booking.External"
+      },
+      {
+        "Path": "LeisureParks.Booking.Internal\\LeisureParks.Booking.Internal.csproj",
+        "Action": "Start",
+        "DebugTarget": "LeisureParks.Booking.Internal"
+      }
+    ]
+  }
+]

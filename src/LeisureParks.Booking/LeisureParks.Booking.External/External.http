@@ -1,0 +1,22 @@
+@External.ApiBaseAddress =  http://localhost:7093/api
+
+POST {{External.ApiBaseAddress}}/booking
+Content-Type: application/json
+{
+  "LodgeCode": "ABC123",
+  "Amount": 249.99,
+  "StartDate": "2026-10-30",
+  "EndDate": "2026-10-31"
+}
+
+###
+
+# Will not pass validation
+POST {{External.ApiBaseAddress}}/booking
+Content-Type: application/json
+{
+  "LodgeCode": "   ",
+  "Amount": 249.99,
+  "StartDate": "2026-10-30",
+  "EndDate": "2026-10-31"
+}

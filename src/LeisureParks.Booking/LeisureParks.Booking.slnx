@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../../.gitignore" />
+    <File Path="../../README.md" />
+    <File Path="global.json" />
+    <File Path="LeisureParks.Booking.slnLaunch" />
+  </Folder>
+  <Project Path="LeisureParks.Booking.External/LeisureParks.Booking.External.csproj" />
+  <Project Path="LeisureParks.Booking.Internal.Test/LeisureParks.Booking.Internal.Test.csproj" Id="98f477ad-e257-4d68-9d8e-727d3b2fb8a1" />
+  <Project Path="LeisureParks.Booking.Internal/LeisureParks.Booking.Internal.csproj" Id="ef52caf3-6211-425a-ad2c-68c46c5ad38e" />
+  <Project Path="LeisureParks.Booking.Models/LeisureParks.Booking.Models.csproj" Id="05e2d5ea-45dd-456d-a1d0-ad1e1fd1b4a1" />
+</Solution>
